@@ -1,0 +1,29 @@
+.card {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-color: #FF4654;
+    border-width: 0.3rem;
+    border-radius: 8%;
+    color: #FF4654;
+}
+
+.card:hover {
+    .card-img-top {
+        transform: scale(1.2);
+    }
+
+    border-color: white;
+    /* color: white; */
+    border-width: 0.4rem;
+    transform: scale(1.1);
+    /* Adjust the scale factor as needed */
+}
+
+.card-body:hover {
+    text-decoration: none;
+}
+
+.toast-message {
+    background-color: #0000;
+    color: #FF4654;
+}
